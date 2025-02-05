@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.arthur246.AudioRecorderApp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,20 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4c13c444-cca7-4bea-a7b8-fc55c3bbbd51"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4c13c444-cca7-4bea-a7b8-fc55c3bbbd51"
     }
   }
 }
